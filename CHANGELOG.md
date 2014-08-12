@@ -1,19 +1,29 @@
+0.9.12.21 / 0.10.12.21 Release notes
+------------------------------------
+
+- Majorly improved the way darksend participants are paired together. It should
+  be super fast now. 
+
+
 0.9.12.20 / 0.10.12.20 Release notes
 ------------------------------------
 
-- Disabled collateral charging for now. We'll work on this after RC4 is released
-  and update the masternode network after it's working properly. It's not
-  incredibly important at this stage (while we're closed source), so I don't want
-  it holding up the release. Plus it's really the only issue we're experiencing
-- Merged rebroad's (https://github.com/rebroad) changes to bring debugging output
-  more in line with the bitcoin project. Output is now much cleaner and can be
-  split by category.
+- Disabled collateral charging for now. We'll work on this after RC4 is
+  released and update the masternode network after it's working properly. It's
+  not incredibly important at this stage (while we're closed source), so
+  I don't want it holding up the release. Plus it's really 
+  the only issue we're experiencing
+- Merged rebroad's (https://github.com/rebroad) changes to bring debugging
+  output more in line with the bitcoin project. Output is now much cleaner and
+  can be split by category.
 - Removed some debug messages
 - Merged mac/windows build icons
 - Fixed windows "Apply" configuration bug
 - Darksend now shows address instead of "n/a"
 - Incremented protocol version to kick off old versions that charge fees. Fees
   should be completely gone now.
+- Found a bug that was causing "not compatible" errors too often. This should
+  speed   up pairing. 
 
 
 
