@@ -1,3 +1,30 @@
+0.9.12.22 / 0.10.12.22 Release notes
+------------------------------------
+
+All fees will use 0.001 sized inputs (they have no change so you can't follow
+them), all transactions now should look like this one:
+
+http://test.explorer.darkcoin.fr/tx/ce0ea2bdf630233955d459489b6f764e0d0bbe9e8a62531dd2a14b455626b59c
+
+- Client now creates fee sizes inputs for use in darksend denomination phases
+  to improve anonymity
+- new rpc command erasetransaction. Some users have reported non-confirming
+  transactions due to opening their wallet at multiple locations. This can and
+  will create double spent transactions that will not confirm. erasetransaction
+  is for removing them. 
+- SplitUpMoney can only execute every 10 blocks now. 
+- removed matching masternode debugging messages, that's not really an error
+- Client now prioritises sending denominated funds back into Darksend. This will
+  improve anonymity and help to respect the "anonymize darkcoin" amount in the
+  configuration.
+- fixed a bug where masternodes send failed transactions
+- changed max to 100k in configuration
+- added a warning message to startup (delete ~/.darkcoin/.agree_to_tou to see it)
+- found a bug causing inputs to get locked forever. 
+- Darksend now checks diskspace before sending anything to a masternode. 
+- incrementing protocol version to knock all old clients off
+
+
 0.9.12.21 / 0.10.12.21 Release notes
 ------------------------------------
 
