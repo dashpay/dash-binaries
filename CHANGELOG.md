@@ -1,3 +1,19 @@
+0.9.12.24 / 0.10.12.24 Release notes
+------------------------------------
+
+- Reverted the pairing fix, seems the network didn't improve at all. 
+- Inc protocol version
+
+
+0.9.12.23 / 0.10.12.23 Release notes
+------------------------------------
+
+- Fixed an issue with pairing, hopefully it should be faster now
+- The client can now recongize it's out of fee inputs and make some more.
+- erasetransaction help (thanks BelStar)
+- inc protocol to kick off old versions
+
+
 0.9.12.22 / 0.10.12.22 Release notes
 ------------------------------------
 
