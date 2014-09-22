@@ -1,0 +1,4 @@
+# MD5 hash
+d042e6c31a7bba94353d879f5ec5f8c6  darkcoin-0.9.13.14-linux.tar.gz
+# SHA-256 hash
+c9c51bac735fee7fe0fbc91ba865695efb6d64b78571d0df6789cd72167ee1b9  darkcoin-0.9.13.14-linux.tar.gz
