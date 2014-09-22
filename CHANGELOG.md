@@ -1,3 +1,140 @@
+0.9.13.14 / 0.10.13.14 Release notes
+------------------------------------
+
+- RC5 released!
+
+
+0.9.13.13 / 0.10.13.13 Release notes
+------------------------------------
+
+- Bounds checking in a few places where it was lacking
+- Output list in transactions lacked random seeding
+- masternode constants for communication are much easier to read now
+
+
+0.9.13.12 / 0.10.13.12 Release notes
+------------------------------------
+
+- disconnect on rejecting enforced block
+
+
+0.9.13.11 / 0.10.13.11 Release notes
+------------------------------------
+
+- Improved handling of enforcement for bad masternode lists
+- Removed old masternode override code
+
+
+0.9.13.10 / 0.10.13.10 Release notes
+------------------------------------
+
+- Changed splitting strategy to deal with some edge cases (endless splitting for a few users)
+- Updated stable proto version
+
+
+0.9.13.9 / 0.10.13.9 Release notes
+------------------------------------
+
+- Testnet merges use two, while mainnet merges will use 3 participants
+- Fixed the endless splitting issue causes by splitting 1000DRK and not making a DS compatible input
+
+
+0.9.13.8 / 0.10.13.8 Release notes
+------------------------------------
+
+- Debugged progress bar
+- New terms of use window
+- Darksend UI is disabled for masternodes now and titlebar says "[masternode]"
+- Improvement for dealing with splitting large inputs
+- Protocol version bump to kick old masternodes off
+
+
+0.9.13.7 / 0.10.13.7 Release notes
+------------------------------------
+
+- Redid the way the progress calculation works (should be smoother now and accurate)
+- Updated stable to prepare for enforcement testing
+
+
+0.9.13.6 / 0.10.13.6 Release notes
+------------------------------------
+
+- Added toggle off/on button to overview screen
+- Updated wording for darksend messages
+- Removed disable darksend checkbox from config screen
+- Added "-enabledarksend" cli option
+- Toggle button shows the basic configuration when started for
+  the first time now
+- Added tooltips for config screen
+- Changed DS participants to three
+- Bump minimum protocol to RC4
+- Added a spork for enforcing masternode payments (this will ensure misconfigured
+  pools break when we enable the spork)
+
+
+0.9.13.5 / 0.10.13.5 Release notes
+------------------------------------
+
+- This should fix the endless splitting bug
+- Overview updates when you update settings and click OK now
+
+
+0.9.13.4 / 0.10.13.4 Release notes
+------------------------------------
+
+- Fixed issue with denominating small amounts of DRK in large wallet
+  (http://jira.darkcoin.qa/browse/DRK-46)
+- Made splitting up initial inputs much more efficient. Now when splitting up,
+  it will use powers of two from 4096 DRK in reverse to get the best possible
+  mix of inputs for the next phase without any bloat to the blockchain or to
+  the users wallet.
+- Fixed "transaction too large" due to the initial splitting function
+- Stopeed collateral/fee creation when it should have been doing a full
+  split instead
+- Sometimes the client would denominate less than the intended amount, then do
+  small denominations to make up the difference. This slowed down the
+  transactions and created extra transactions that weren't needed. 
+- Darksend should anonymize very close to the intended amount now
+- Added Amount/Rounds to overview screen so you can see current settings
+- Overview darksend cache is cleared on settings change (will instantly update)
+- Fixed issue with completed amount jumping around
+  (http://jira.darkcoin.qa/browse/DRK-46)
+- Made messages less threatening (http://jira.darkcoin.qa/browse/DRK-60)
+
+PS : Please move testing funds to a new wallet. This version has massive 
+optimizations for the way inputs are stored and split up. This will make
+everything much more efficient.
+
+
+0.9.13.3 / 0.10.13.3 Release notes
+------------------------------------
+
+- This update deals with freezing, slow wallets, slow load times and the
+  "not compatible" error. I debugged one of the slow wallets and found it had
+  38,000 keys in the keypool, then after more investigation I found the passive
+  Darksend process has been reserve keys for every attempt! To rectify this
+  I've modified the queuing system, so users wait in a masternode queue without
+  actually sending the transactions until the queue is full.
+
+Please move any testing funds to a new wallet to test the new version.
+
+
+0.9.13.2 / 0.10.13.2 Release notes
+------------------------------------
+
+- Easy to read darksend progress bar (Mouse over for very detailed info)
+- Fixed a collateral bug
+- Moved around the overview screen, changed some of the text
+- Removed lots of debug messages (they show up only with debug=1 now)
+
+
+0.9.13.1 / 0.10.13.1 Release notes
+------------------------------------
+
+- Fixed a bug where the client gives the error "No funds detected in need of
+  denominating (2)" when it should have split
+
+
 0.9.12.27 / 0.10.12.27 Release notes
 ------------------------------------
 
