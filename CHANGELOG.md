@@ -1,3 +1,112 @@
+0.10.15.13 Release notes
+------------------------
+
+- Onyx Release!
+
+0.10.15.12 Release notes
+------------------------
+
+- Added some debugging log output to track down why some users are still
+  getting charged collateral. If anyone gets hit with a collateral fee,
+  please send me the debug.log so I can check it out.
+- Includes a possible fix to the collateral issue
+- Protocol bump, all users must update!
+
+
+0.10.15.10 Release notes
+------------------------
+
+- Fixed a couple more collateral charge issues, plus an issue causing
+  "incompatible denominations" when it should have worked. Mixing
+  should be faster now. 
+
+
+0.10.15.9 Release notes
+------------------------
+
+- Fixed a race condition causing collateral changes in rare cases. 
+
+
+0.10.15.8 Release notes
+------------------------
+
+- Fixed all sorts of issues with collateral and Darksend.
+  I tested five rounds and it worked flawlessly.
+
+
+0.10.15.7 Release notes
+------------------------
+
+- Fixed the stuck blockchain (due to masternode payments)
+- Improves collateral creation for those getting "invalid collateral"
+- Minimum confirmation requirements before masternode payment.
+  Must have more confirmations then there are masternodes.
+
+
+0.10.15.6 Release notes
+------------------------
+
+- This updates the min protocol version to kick off older clients
+- Improves collateral charging
+- Changes the masternode payments keys, you'll only recieve masternode
+  payments and be able to mine on 15.6
+- If anyone has that warning message, start the client 
+  with --disablesafemode --reindex
+
+
+0.10.15.5 Release notes
+------------------------
+
+- I've made some huge progress with enforcement. Each masternode will
+  have exactly the same distribution of payments after this.
+
+
+0.10.15.4 Release notes
+------------------------
+
+- Fixed some issues with masternode payments syncing
+
+
+0.10.15.3 Release notes
+------------------------
+
+- Incremented protocol / protocol version requirements due
+  to the testnet-hardfork
+  
+  
+0.10.15.2 Release notes
+------------------------
+
+- Fixed some issues with the way the masternode payment list 
+  was being handled
+- Masternode confirmation error now displays 200 required instead of 6
+- Changed the pinging settings around
+- Block reward reduction is set to have it's first 7% reduction in a couple
+  days on testnet to test that code
+  
+  
+0.10.15.1 Release notes
+------------------------
+
+- Darksend tested with 2.5 DRK successfully and I've set that as the minimum
+  amount that's compatible 
+- Fixed a locking bug on inputs 
+- Fixed a collateral calculation bug
+
+
+0.10.14.1 Release notes
+------------------------
+
+- security update: This update simply verifies that the signature was
+  not forged and that the masternodes entering the list are authentic.
+
+
+0.10.14.0 Release notes
+------------------------
+
+- community release
+
+
 0.9.13.14 / 0.10.13.14 Release notes
 ------------------------------------
 
