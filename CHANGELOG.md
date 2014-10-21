@@ -1,3 +1,10 @@
+0.10.15.14 Release notes
+------------------------
+
+- fixed dsee duplication issue and added better cleanup for
+  inactive masternodes
+
+
 0.10.15.13 Release notes
 ------------------------
 
