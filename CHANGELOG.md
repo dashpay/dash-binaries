@@ -1,3 +1,9 @@
+0.10.15.15 Release notes
+------------------------
+
+- fixed fragmentation issue, allow masternodes to update pubkey2
+
+
 0.10.15.14 Release notes
 ------------------------
 
@@ -15,7 +21,7 @@
 
 - Added some debugging log output to track down why some users are still
   getting charged collateral. If anyone gets hit with a collateral fee,
-  please send me the debug.log so I can check it out.
+  please send me the debu.log so I can check it out.
 - Includes a possible fix to the collateral issue
 - Protocol bump, all users must update!
 
