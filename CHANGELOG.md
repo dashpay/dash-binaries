@@ -1,3 +1,9 @@
+0.10.15.16 Release notes
+------------------------
+
+- masternode only take newest dsee now
+
+
 0.10.15.15 Release notes
 ------------------------
 
