@@ -1,3 +1,8 @@
+0.10.15.17 Release notes
+------------------------
+
+- fixed GetBlockPayee
+
 0.10.15.16 Release notes
 ------------------------
 
