@@ -1,3 +1,13 @@
+0.10.15.19 Release notes
+------------------------
+
+- Added sanity check and debugging
+
+0.10.15.18 Release notes
+------------------------
+
+- Fixed masternode payment check for out-of-order blocks
+
 0.10.15.17 Release notes
 ------------------------
 
