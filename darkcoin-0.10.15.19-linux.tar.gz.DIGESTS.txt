@@ -1,0 +1,4 @@
+# MD5 hash
+400950e87b1f175d094e60969ce44a6c  darkcoin-0.10.15.19-linux.tar.gz
+# SHA-256 hash
+2ef57fb1aa14e428b1c730547d10d14b4729fb9f15c959c66fac086dca7d06be  darkcoin-0.10.15.19-linux.tar.gz
