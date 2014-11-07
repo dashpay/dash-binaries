@@ -1,3 +1,9 @@
+
+0.10.15.20/21 Release notes
+------------------------
+
+- added bloom filters for dsee/dseep broadcasts, moved expensive dsee search, masternode vote caching
+
 0.10.15.19 Release notes
 ------------------------
 
