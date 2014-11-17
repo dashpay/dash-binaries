@@ -1,4 +1,0 @@
-# MD5 hash
-25abf7061bfd4aefceb9eda359d643ae  darkcoin-0.10.16.12-linux.tar.gz
-# SHA-256 hash
-1da3ef824c31de927f4022b7d959e26c07bb3af3d7c6cd402bdd8f5624a5b8ff  darkcoin-0.10.16.12-linux.tar.gz

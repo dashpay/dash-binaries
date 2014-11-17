@@ -1,3 +1,25 @@
+0.10.16.7-15 Release notes
+-------------------------------------
+- Fixed memory issues
+- Fixed remote masternode issues
+- Fixed darksend definitions
+- Fixed mixing issues
+- Reduced collateral charges by 90%
+- Changed ping time to 5m
+
+0.10.16.6 Release notes
+------------------------
+
+- saction for Darksend. These are special transactions that require a signature that only the masternodes can create.
+- Darksend now has no fees to track what-so-ever, all that will ever be in Darksend transactions are Darksend denominations.
+- Added queue gaming protection
+- Clients remember which masternodes they've connected to in the past and won't use them against.
+- Dsee/Dseep messages have been fixed so they only take newer signatures than the one they have
+- 2 different kinds of client crashes have been fixed
+- Split up main.cpp into core.cpp
+- Split up darksend.cpp into masternode.cpp, activemasternode.cpp and instantx.cpp
+- Added modular ProcessMessages for Darksend, Masternodes and InstantX
+- Client can now join sessions with any other users
 
 0.10.15.20/21 Release notes
 ------------------------
