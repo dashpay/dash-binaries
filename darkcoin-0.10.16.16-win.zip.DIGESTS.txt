@@ -1,0 +1,4 @@
+# MD5 hash
+609c980e805069636eab33028b6a4f2d  darkcoin-0.10.16.16-win.zip
+# SHA-256 hash
+2ccc9bf093b2085192cd06093642f09ccaa82af85052bab0b1ef3ddcb429923f  darkcoin-0.10.16.16-win.zip

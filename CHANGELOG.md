@@ -1,3 +1,7 @@
+0.10.16.7-16 Release notes
+-------------------------------------
+- Fixed queuing system timeout values (causing mixing issues)
+
 0.10.16.7-15 Release notes
 -------------------------------------
 - Fixed memory issues
