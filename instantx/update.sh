@@ -1,7 +1,8 @@
 
-LINUX_BUILD=49
-MAC_BUILD=35
-WINDOWS_BUILD=41
+LINUX_BUILD=50
+MAC_BUILD=36
+WINDOWS_BUILD=42
+VERSION='0.10.17.1'
 
 rm windows linux mac -rf
 
@@ -15,7 +16,7 @@ wget http://bamboo.darkcoin.qa/artifact/DRKL-DEV/JOB1/build-$LINUX_BUILD/gitian-
 
 #---
 
-wget http://bamboo.darkcoin.qa/browse/DRKM-DEV-$MAC_BUILD/artifact/JOB1/gitian-osx-darkcoin-dist/darkcoin-0.10.17.0-osx.dmg -O mac/darkcoin-0.10.17.0-osx.dmg
+wget http://bamboo.darkcoin.qa/browse/DRKM-DEV-$MAC_BUILD/artifact/JOB1/gitian-osx-darkcoin-dist/darkcoin-$VERSION-osx.dmg -O mac/darkcoin-$VERSION-osx.dmg
 
 #---
 
