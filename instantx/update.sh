@@ -1,8 +1,8 @@
 
-LINUX_BUILD=50
-MAC_BUILD=36
-WINDOWS_BUILD=42
-VERSION='0.10.17.1'
+LINUX_BUILD=53
+MAC_BUILD=39
+WINDOWS_BUILD=45
+VERSION='0.10.17.4'
 
 rm windows linux mac -rf
 
@@ -22,3 +22,6 @@ wget http://bamboo.darkcoin.qa/browse/DRKM-DEV-$MAC_BUILD/artifact/JOB1/gitian-o
 
 wget http://bamboo.darkcoin.qa/artifact/DRKW-DEV/JOB1/build-$WINDOWS_BUILD/gitian-win-darkcoin-bin/32/darkcoin-qt.exe -O windows/darkcoin-qt.exe
 wget http://bamboo.darkcoin.qa/artifact/DRKW-DEV/JOB1/build-$WINDOWS_BUILD/gitian-win-darkcoin-bin/32/daemon/darkcoind.exe -O windows/darkcoind.exe
+
+git add *
+git commit -am '$version'
