@@ -1,8 +1,8 @@
 
-LINUX_BUILD=55
-MAC_BUILD=41
-WINDOWS_BUILD=47
-VERSION='0.10.17.6'
+LINUX_BUILD=58
+MAC_BUILD=43
+WINDOWS_BUILD=49
+VERSION='0.10.17.8'
 
 rm windows linux mac -rf
 
@@ -24,4 +24,4 @@ wget http://bamboo.darkcoin.qa/artifact/DRKW-DEV/JOB1/build-$WINDOWS_BUILD/gitia
 wget http://bamboo.darkcoin.qa/artifact/DRKW-DEV/JOB1/build-$WINDOWS_BUILD/gitian-win-darkcoin-bin/32/daemon/darkcoind.exe -O windows/darkcoind.exe
 
 git add *
-git commit -am '$version'
+git commit -am '$VERSION'
