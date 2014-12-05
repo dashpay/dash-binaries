@@ -1,12 +1,10 @@
 
 LINUX_BUILD=31
 MAC_BUILD=24
-WINDOWS_BUILD=67
+WINDOWS_BUILD=37
 VERSION='0.10.17.19'
 
 rm darkcoin-*
-
-mkdir -p linux/32 linux/64 windows mac
 
 wget http://bamboo.darkcoin.qa/browse/DRKL-GITIAN-$LINUX_BUILD/artifact/JOB1/gitian-linux-darkcoin-dist/darkcoin-$VERSION-linux.tar.gz -O darkcoin-$VERSION-linux.tar.gz
 wget http://bamboo.darkcoin.qa/browse/DRKL-GITIAN-$LINUX_BUILD/artifact/JOB1/gitian-linux-darkcoin-DIGESTS/darkcoin-$VERSION-linux.tar.gz.DIGESTS.txt -O darkcoin-$VERSION-linux.tar.gz.DIGESTS.txt
