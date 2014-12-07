@@ -1,4 +1,0 @@
-# MD5 hash
-03ed0c02e4048cc4064de8132d4295b2  darkcoin-0.10.17.21-win32-setup.exe
-# SHA-256 hash
-c4f231ef580f83edb380b0f559cf2977d7f695a3460809b8dca8305eea8daa64  darkcoin-0.10.17.21-win32-setup.exe

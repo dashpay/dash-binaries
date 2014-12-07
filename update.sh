@@ -1,8 +1,9 @@
 
-LINUX_BUILD=31
-MAC_BUILD=24
-WINDOWS_BUILD=37
-VERSION='0.10.17.19'
+LINUX_BUILD=35
+MAC_BUILD=27
+WINDOWS_BUILD=40
+VERSION='0.10.17.23'
+GPG='986FF288'
 
 rm darkcoin-*
 
@@ -23,10 +24,10 @@ wget http://bamboo.darkcoin.qa/artifact/DRKW-GITIAN/JOB1/build-$WINDOWS_BUILD/gi
 
 #---
 
-gpg -b --armor -u 986FF288 --no-emit-version darkcoin-$VERSION-linux.tar.gz
-gpg -b --armor -u 986FF288 --no-emit-version darkcoin-$VERSION-win32-setup.exe
-gpg -b --armor -u 986FF288 --no-emit-version darkcoin-$VERSION-win.zip
-gpg -b --armor -u 986FF288 --no-emit-version darkcoin-$VERSION-osx.dmg
+gpg -b --armor -u $GPG --no-emit-version darkcoin-$VERSION-linux.tar.gz
+gpg -b --armor -u $GPG --no-emit-version darkcoin-$VERSION-win32-setup.exe
+gpg -b --armor -u $GPG --no-emit-version darkcoin-$VERSION-win.zip
+gpg -b --armor -u $GPG --no-emit-version darkcoin-$VERSION-osx.dmg
 
 git add *
 git commit -am "$VERSION"
