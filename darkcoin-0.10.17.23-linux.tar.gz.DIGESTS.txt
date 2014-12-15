@@ -1,4 +1,0 @@
-# MD5 hash
-c4a640de457e413526f8b30da97ae136  darkcoin-0.10.17.23-linux.tar.gz
-# SHA-256 hash
-cdb466e2f12b753ce5ea577ccf83a5a67dd769f33fc5dfc58e4a6e1d6710add7  darkcoin-0.10.17.23-linux.tar.gz
