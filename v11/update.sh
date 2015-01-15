@@ -18,7 +18,7 @@ wget http://bamboo.darkcoin.qa/browse/DRKM-DEV-$MAC_BUILD/artifact/JOB1/gitian-o
 #---
 
 wget http://bamboo.darkcoin.qa/browse/DRKW-DEV-$WINDOWS_BUILD/artifact/JOB1/gitian-win-darkcoin-dist/darkcoin-$VERSION-win.zip -O darkcoin-$VERSION-win.zip
-wget http://bamboo.darkcoin.qa/artifact/DRKW-DEV/JOB1/build-$WINDOWS_BUILD/gitian-win-darkcoin-bin/32/darkcoin-$VERSION-win32-setup.exe -O darkcoin-$VERSION-win32-setup.exe
+wget http://bamboo.darkcoin.qa/artifact/DRKW-DEV/JOB1/build-86/gitian-win-darkcoin-bin/64/darkcoin-0.11.0-win64-setup.exe -O darkcoin-$VERSION-win32-setup.exe
 wget http://bamboo.darkcoin.qa/artifact/DRKW-DEV/JOB1/build-$WINDOWS_BUILD/gitian-win-darkcoin-DIGESTS/darkcoin-$VERSION-win.zip.DIGESTS.txt -O darkcoin-$VERSION-win.zip.DIGESTS.txt
 wget http://bamboo.darkcoin.qa/artifact/DRKW-DEV/JOB1/build-$WINDOWS_BUILD/gitian-win-darkcoin-DIGESTS/darkcoin-$VERSION-win32-setup.exe.DIGESTS.txt -O darkcoin-$VERSION-win32-setup.exe.DIGESTS.txt
 
