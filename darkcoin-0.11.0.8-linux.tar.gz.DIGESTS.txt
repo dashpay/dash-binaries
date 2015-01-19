@@ -1,0 +1,4 @@
+# MD5 hash
+9528211258fd2813180a5755f7c077ad  darkcoin-0.11.0.8-linux.tar.gz
+# SHA-256 hash
+a4132978294526bfc87547864fc48d53f812e5f9643500d3e46f6dd8de6f225e  darkcoin-0.11.0.8-linux.tar.gz
