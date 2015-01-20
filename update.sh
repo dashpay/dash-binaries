@@ -1,8 +1,8 @@
-LINUX_BUILD=47
-MAC_BUILD=46
-WINDOWS_BUILD=51
+LINUX_BUILD=49
+MAC_BUILD=48
+WINDOWS_BUILD=52
 VERSION='0.11.0'
-MINOR='9'
+MINOR='10'
 GPG='986FF288'
 
 rm darkcoin-*
@@ -18,9 +18,9 @@ wget http://bamboo.darkcoin.qa/browse/DRKM-GITIAN-$MAC_BUILD/artifact/JOB1/gitia
 #---
 
 wget http://bamboo.darkcoin.qa/browse/DRKW-GITIAN-$WINDOWS_BUILD/artifact/JOB1/gitian-win-darkcoin-dist/darkcoin-$VERSION.$MINOR-win.zip -O darkcoin-$VERSION.$MINOR-win.zip
-wget http://bamboo.darkcoin.qa/artifact/DRKW-GITIAN/JOB1/build-$WINDOWS_BUILD/gitian-win-darkcoin-bin/32/darkcoin-$VERSION.$MINOR-win32-setup.exe -O darkcoin-$VERSION-win32-setup.exe
+wget http://bamboo.darkcoin.qa/artifact/DRKW-GITIAN/JOB1/build-$WINDOWS_BUILD/gitian-win-darkcoin-bin/32/darkcoin-$VERSION-win32-setup.exe -O darkcoin-$VERSION.$MINOR-win32-setup.exe
 wget http://bamboo.darkcoin.qa/artifact/DRKW-GITIAN/JOB1/build-$WINDOWS_BUILD/gitian-win-darkcoin-DIGESTS/darkcoin-$VERSION.$MINOR-win.zip.DIGESTS.txt -O darkcoin-$VERSION.$MINOR-win.zip.DIGESTS.txt
-wget http://bamboo.darkcoin.qa/artifact/DRKW-GITIAN/JOB1/build-$WINDOWS_BUILD/gitian-win-darkcoin-DIGESTS/darkcoin-$VERSION.$MINOR-win32-setup.exe.DIGESTS.txt -O darkcoin-$VERSION-win32-setup.exe.DIGESTS.txt
+wget http://bamboo.darkcoin.qa/artifact/DRKW-GITIAN/JOB1/build-$WINDOWS_BUILD/gitian-win-darkcoin-DIGESTS/darkcoin-$VERSION.$MINOR-win32-setup.exe.DIGESTS.txt -O darkcoin-$VERSION.$MINOR-win32-setup.exe.DIGESTS.txt
 
 #---
 
