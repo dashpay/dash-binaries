@@ -1,0 +1,4 @@
+# MD5 hash
+1ec22002dd3bf06baabac48d01c716e1  darkcoin-0.11.1.20-linux.tar.gz
+# SHA-256 hash
+3bcd7774fa13bff7ab607ec603b1d8a48901a6d07e93c38079044ccacccb5126  darkcoin-0.11.1.20-linux.tar.gz
