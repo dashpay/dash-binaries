@@ -1,0 +1,4 @@
+# MD5 hash
+5c16f2f8aac6e853d3a8555406dfc67e  darkcoin-0.11.1.22-osx.dmg
+# SHA-256 hash
+82eb8c4f616dd946994f7c50f8209a22b333fc351a8dc483cadee157df0b710c  darkcoin-0.11.1.22-osx.dmg
