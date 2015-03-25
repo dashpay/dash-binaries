@@ -1,4 +1,4 @@
 # MD5 hash
-ec55183da462a9c916306206aebf10e2  dash-0.11.1.26-win.zip
+8c8cceb1a3fac1fcdcd823261377a7fd  dash-0.11.1.26-win.zip
 # SHA-256 hash
-8530f2e770e6e1061f2b72ffca3e39f1e92ca6105710e0ab9652c54e2df900d6  dash-0.11.1.26-win.zip
+68b84eb1987f75b246f7fb17a750c0e3736d2f51234cd07dfaf42d591a32d225  dash-0.11.1.26-win.zip
