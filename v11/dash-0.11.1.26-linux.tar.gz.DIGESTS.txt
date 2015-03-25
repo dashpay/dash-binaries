@@ -1,0 +1,4 @@
+# MD5 hash
+b89d913c1e954a9d03faabbc3f327935  dash-0.11.1.26-linux.tar.gz
+# SHA-256 hash
+6b5a9648fd8f1eb68a985f9b35ff7296e040f6a90dab77a3ed68cfdeade9d953  dash-0.11.1.26-linux.tar.gz
