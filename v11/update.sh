@@ -1,7 +1,7 @@
 
 LINUX_BUILD=168
 MAC_BUILD=134
-WINDOWS_BUILD=157
+WINDOWS_BUILD=158
 VERSION='0.11.1.26'
 GPG='986FF288'
 
@@ -16,7 +16,6 @@ wget http://bamboo.darkcoin.qa/browse/DRKM-DEV-$MAC_BUILD/artifact/JOB1/gitian-o
 wget http://bamboo.darkcoin.qa/browse/DRKM-DEV-$MAC_BUILD/artifact/JOB1/gitian-osx-dash-DIGESTS/dash-$VERSION-osx.dmg.DIGESTS.txt -O dash-$VERSION-osx.dmg.DIGESTS.txt
 
 #---
-
 
 wget http://bamboo.darkcoin.qa/browse/DRKW-DEV-$WINDOWS_BUILD/artifact/JOB1/gitian-win-dash-dist/dash-$VERSION-win.zip -O dash-$VERSION-win.zip
 wget http://bamboo.darkcoin.qa/artifact/DRKW-DEV/JOB1/build-$WINDOWS_BUILD/gitian-win-dash-bin/64/dash-0.11.0-win64-setup.exe -O dash-$VERSION-win32-setup.exe
