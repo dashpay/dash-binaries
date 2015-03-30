@@ -1,4 +1,0 @@
-# MD5 hash
-
-# SHA-256 hash
-
