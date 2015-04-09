@@ -1,4 +1,0 @@
-# MD5 hash
-f7826b2abb287240383e3bae2bfa1436  dash-0.11.2.21-osx.dmg
-# SHA-256 hash
-71233f107733e7c679e0904b91cfc02aae0a3be2e6566186c1942b429bc34d4f  dash-0.11.2.21-osx.dmg
