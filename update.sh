@@ -1,32 +1,29 @@
-LINUX_BUILD=77
-MAC_BUILD=73
-WINDOWS_BUILD=78
-VERSION='0.11.2'
-MINOR='16'
+LINUX_BUILD=2
+MAC_BUILD=2
+WINDOWS_BUILD=8
+VERSION='0.12.0'
+MINOR='44'
 GPG='986FF288'
 
-rm darkcoin-*
+# rm dash-*
 
-wget http://bamboo.darkcoin.qa/browse/DRKL-GITIAN-$LINUX_BUILD/artifact/JOB1/gitian-linux-darkcoin-dist/darkcoin-$VERSION.$MINOR-linux.tar.gz -O darkcoin-$VERSION.$MINOR-linux.tar.gz
-wget http://bamboo.darkcoin.qa/browse/DRKL-GITIAN-$LINUX_BUILD/artifact/JOB1/gitian-linux-darkcoin-DIGESTS/darkcoin-$VERSION.$MINOR-linux.tar.gz.DIGESTS.txt -O darkcoin-$VERSION.$MINOR-linux.tar.gz.DIGESTS.txt
+# wget https://dashpay.atlassian.net/builds/artifact/DASHW-REL/JOB1/build-$WINDOWS_BUILD/gitian-win-dash-dist/dash-$VERSION-win32.zip -O dash-$VERSION.$MINOR-win32.tar.gz
+# wget https://dashpay.atlassian.net/builds/artifact/DASHW-REL/JOB1/build-$WINDOWS_BUILD/gitian-win-dash-dist/dash-$VERSION-win64.zip -O dash-$VERSION.$MINOR-win64.tar.gz
+# wget https://dashpay.atlassian.net/builds/artifact/DASHW-REL/JOB1/build-$WINDOWS_BUILD/-gitian-win-dash-installer/dash-0.12.0-win32-setup.exe  -O dash-$VERSION.$MINOR-win32-setup.tar.gz
+# wget https://dashpay.atlassian.net/builds/artifact/DASHW-REL/JOB1/build-$WINDOWS_BUILD/-gitian-win-dash-installer/dash-0.12.0-win64-setup.exe  -O dash-$VERSION.$MINOR-win64-setup.tar.gz
 
-#---
+# wget https://dashpay.atlassian.net/builds/artifact/DASHL-GITIAN/JOB1/build-$LINUX_BUILD/gitian-linux-dash-dist/dash-$VERSION-linux32.tar.gz -O dash-$VERSION.$MINOR-linux32.tar.gz
+# wget https://dashpay.atlassian.net/builds/artifact/DASHL-GITIAN/JOB1/build-$LINUX_BUILD/gitian-linux-dash-dist/dash-$VERSION-linux64.tar.gz -O dash-$VERSION.$MINOR-linux64.tar.gz
 
-wget http://bamboo.darkcoin.qa/browse/DRKM-GITIAN-$MAC_BUILD/artifact/JOB1/gitian-osx-darkcoin-dist/darkcoin-$VERSION.$MINOR-osx.dmg -O darkcoin-$VERSION.$MINOR-osx.dmg
-wget http://bamboo.darkcoin.qa/browse/DRKM-GITIAN-$MAC_BUILD/artifact/JOB1/gitian-osx-darkcoin-DIGESTS/darkcoin-$VERSION.$MINOR-osx.dmg.DIGESTS.txt -O darkcoin-$VERSION.$MINOR-osx.dmg.DIGESTS.txt
+# wget https://dashpay.atlassian.net/builds/browse/DASHM-REL-$MAC_BUILD/artifact/JOB1/gitian-osx-dash-dist/dash-$VERSION-osx-unsigned.dmg  -O dash-$VERSION.$MINOR-osx.tar.gz
 
-#---
 
-wget http://bamboo.darkcoin.qa/browse/DRKW-GITIAN-$WINDOWS_BUILD/artifact/JOB1/gitian-win-darkcoin-dist/darkcoin-$VERSION.$MINOR-win.zip -O darkcoin-$VERSION.$MINOR-win.zip
-wget http://bamboo.darkcoin.qa/artifact/DRKW-GITIAN/JOB1/build-$WINDOWS_BUILD/gitian-win-darkcoin-bin/32/darkcoin-$VERSION-win32-setup.exe -O darkcoin-$VERSION.$MINOR-win32-setup.exe
-wget http://bamboo.darkcoin.qa/artifact/DRKW-GITIAN/JOB1/build-$WINDOWS_BUILD/gitian-win-darkcoin-DIGESTS/darkcoin-$VERSION.$MINOR-win.zip.DIGESTS.txt -O darkcoin-$VERSION.$MINOR-win.zip.DIGESTS.txt
-wget http://bamboo.darkcoin.qa/artifact/DRKW-GITIAN/JOB1/build-$WINDOWS_BUILD/gitian-win-darkcoin-DIGESTS/darkcoin-$VERSION.$MINOR-win32-setup.exe.DIGESTS.txt -O darkcoin-$VERSION.$MINOR-win32-setup.exe.DIGESTS.txt
-
-#---
-
-gpg -b --armor -u $GPG --no-emit-version darkcoin-$VERSION.$MINOR-linux.tar.gz
+gpg -b --armor -u $GPG --no-emit-version darkcoin-$VERSION.$MINOR-linux32.tar.gz
+gpg -b --armor -u $GPG --no-emit-version darkcoin-$VERSION.$MINOR-linux64.tar.gz
 gpg -b --armor -u $GPG --no-emit-version darkcoin-$VERSION.$MINOR-win32-setup.exe
-gpg -b --armor -u $GPG --no-emit-version darkcoin-$VERSION.$MINOR-win.zip
+gpg -b --armor -u $GPG --no-emit-version darkcoin-$VERSION.$MINOR-win64-setup.exe
+gpg -b --armor -u $GPG --no-emit-version darkcoin-$VERSION.$MINOR-win32.zip
+gpg -b --armor -u $GPG --no-emit-version darkcoin-$VERSION.$MINOR-win64.zip
 gpg -b --armor -u $GPG --no-emit-version darkcoin-$VERSION.$MINOR-osx.dmg
 
 git add *
