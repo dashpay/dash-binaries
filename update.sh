@@ -18,13 +18,13 @@ GPG='986FF288'
 # wget https://dashpay.atlassian.net/builds/browse/DASHM-REL-$MAC_BUILD/artifact/JOB1/gitian-osx-dash-dist/dash-$VERSION-osx-unsigned.dmg  -O dash-$VERSION.$MINOR-osx.tar.gz
 
 
-gpg -b --armor -u $GPG --no-emit-version darkcoin-$VERSION.$MINOR-linux32.tar.gz
-gpg -b --armor -u $GPG --no-emit-version darkcoin-$VERSION.$MINOR-linux64.tar.gz
-gpg -b --armor -u $GPG --no-emit-version darkcoin-$VERSION.$MINOR-win32-setup.exe
-gpg -b --armor -u $GPG --no-emit-version darkcoin-$VERSION.$MINOR-win64-setup.exe
-gpg -b --armor -u $GPG --no-emit-version darkcoin-$VERSION.$MINOR-win32.zip
-gpg -b --armor -u $GPG --no-emit-version darkcoin-$VERSION.$MINOR-win64.zip
-gpg -b --armor -u $GPG --no-emit-version darkcoin-$VERSION.$MINOR-osx.dmg
+gpg -b --armor -u $GPG --no-emit-version dash-$VERSION.$MINOR-linux32.tar.gz
+gpg -b --armor -u $GPG --no-emit-version dash-$VERSION.$MINOR-linux64.tar.gz
+gpg -b --armor -u $GPG --no-emit-version dash-$VERSION.$MINOR-win32-setup.exe
+gpg -b --armor -u $GPG --no-emit-version dash-$VERSION.$MINOR-win64-setup.exe
+gpg -b --armor -u $GPG --no-emit-version dash-$VERSION.$MINOR-win32.zip
+gpg -b --armor -u $GPG --no-emit-version dash-$VERSION.$MINOR-win64.zip
+gpg -b --armor -u $GPG --no-emit-version dash-$VERSION.$MINOR-osx.dmg
 
 git add *
 git commit -am "$VERSION.$MINOR"
