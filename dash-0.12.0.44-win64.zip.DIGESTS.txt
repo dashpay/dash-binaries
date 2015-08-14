@@ -1,1 +1,2 @@
 MD5 (dash-0.12.0.44-win64.zip) = 4c32fe6eaf35617fae59bd8b1f807f21
+202e7c66ed9fc844584a33005fa84bd44e78035e  dash-0.12.0.44-win64.zip

@@ -26,13 +26,13 @@ md5 dash-$VERSION.$MINOR-linux32.tar.gz > dash-$VERSION.$MINOR-linux32.tar.gz.DI
 md5 dash-$VERSION.$MINOR-linux64.tar.gz > dash-$VERSION.$MINOR-linux64.tar.gz.DIGESTS.txt
 md5 dash-$VERSION.$MINOR-osx.dmg > dash-$VERSION.$MINOR-osx.dmg.DIGESTS.txt
 
-sha256 dash-$VERSION.$MINOR-win32.zip >> dash-$VERSION.$MINOR-win32.zip.DIGESTS.txt
-sha256 dash-$VERSION.$MINOR-win64.zip >> dash-$VERSION.$MINOR-win64.zip.DIGESTS.txt
-sha256 dash-$VERSION.$MINOR-win32-setup.exe >> dash-$VERSION.$MINOR-win32-setup.exe.DIGESTS.txt
-sha256 dash-$VERSION.$MINOR-win64-setup.exe >> dash-$VERSION.$MINOR-win64-setup.exe.DIGESTS.txt
-sha256 dash-$VERSION.$MINOR-linux32.tar.gz >> dash-$VERSION.$MINOR-linux32.tar.gz.DIGESTS.txt
-sha256 dash-$VERSION.$MINOR-linux64.tar.gz >> dash-$VERSION.$MINOR-linux64.tar.gz.DIGESTS.txt
-sha256 dash-$VERSION.$MINOR-osx.dmg >> dash-$VERSION.$MINOR-osx.dmg.DIGESTS.txt
+shasum dash-$VERSION.$MINOR-win32.zip >> dash-$VERSION.$MINOR-win32.zip.DIGESTS.txt
+shasum dash-$VERSION.$MINOR-win64.zip >> dash-$VERSION.$MINOR-win64.zip.DIGESTS.txt
+shasum dash-$VERSION.$MINOR-win32-setup.exe >> dash-$VERSION.$MINOR-win32-setup.exe.DIGESTS.txt
+shasum dash-$VERSION.$MINOR-win64-setup.exe >> dash-$VERSION.$MINOR-win64-setup.exe.DIGESTS.txt
+shasum dash-$VERSION.$MINOR-linux32.tar.gz >> dash-$VERSION.$MINOR-linux32.tar.gz.DIGESTS.txt
+shasum dash-$VERSION.$MINOR-linux64.tar.gz >> dash-$VERSION.$MINOR-linux64.tar.gz.DIGESTS.txt
+shasum dash-$VERSION.$MINOR-osx.dmg >> dash-$VERSION.$MINOR-osx.dmg.DIGESTS.txt
 
 # gpg -b --armor -u $GPG --no-emit-version dash-$VERSION.$MINOR-linux32.tar.gz
 # gpg -b --armor -u $GPG --no-emit-version dash-$VERSION.$MINOR-linux64.tar.gz
