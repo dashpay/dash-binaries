@@ -26,6 +26,15 @@ md5 dash-$VERSION.$MINOR-linux32.tar.gz > dash-$VERSION.$MINOR-linux32.tar.gz.DI
 md5 dash-$VERSION.$MINOR-linux64.tar.gz > dash-$VERSION.$MINOR-linux64.tar.gz.DIGESTS.txt
 md5 dash-$VERSION.$MINOR-osx.dmg > dash-$VERSION.$MINOR-osx.dmg.DIGESTS.txt
 
+
+cat "#sha256\n" >> dash-$VERSION.$MINOR-win32.zip.DIGESTS.txt
+cat "#sha256\n" >> dash-$VERSION.$MINOR-win64.zip.DIGESTS.txt
+cat "#sha256\n" >> dash-$VERSION.$MINOR-win32-setup.exe.DIGESTS.txt
+cat "#sha256\n" >> dash-$VERSION.$MINOR-win64-setup.exe.DIGESTS.txt
+cat "#sha256\n" >> dash-$VERSION.$MINOR-linux32.tar.gz.DIGESTS.txt
+cat "#sha256\n" >> dash-$VERSION.$MINOR-linux64.tar.gz.DIGESTS.txt
+cat "#sha256\n" >> dash-$VERSION.$MINOR-osx.dmg.DIGESTS.txt
+
 shasum dash-$VERSION.$MINOR-win32.zip >> dash-$VERSION.$MINOR-win32.zip.DIGESTS.txt
 shasum dash-$VERSION.$MINOR-win64.zip >> dash-$VERSION.$MINOR-win64.zip.DIGESTS.txt
 shasum dash-$VERSION.$MINOR-win32-setup.exe >> dash-$VERSION.$MINOR-win32-setup.exe.DIGESTS.txt
