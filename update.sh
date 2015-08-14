@@ -18,21 +18,21 @@ GPG='986FF288'
 # wget https://dashpay.atlassian.net/builds/browse/DASHM-REL-$MAC_BUILD/artifact/JOB1/gitian-osx-dash-dist/dash-$VERSION-osx-unsigned.dmg  -O dash-$VERSION.$MINOR-osx.dmg
 
 
-echo "# md5" >> dash-$VERSION.$MINOR-win32.zip.DIGESTS.txt
-echo "# md5" >> dash-$VERSION.$MINOR-win64.zip.DIGESTS.txt
-echo "# md5" >> dash-$VERSION.$MINOR-win32-setup.exe.DIGESTS.txt
-echo "# md5" >> dash-$VERSION.$MINOR-win64-setup.exe.DIGESTS.txt
-echo "# md5" >> dash-$VERSION.$MINOR-linux32.tar.gz.DIGESTS.txt
-echo "# md5" >> dash-$VERSION.$MINOR-linux64.tar.gz.DIGESTS.txt
-echo "# md5" >> dash-$VERSION.$MINOR-osx.dmg.DIGESTS.txt
+echo "# md5" > dash-$VERSION.$MINOR-win32.zip.DIGESTS.txt
+echo "# md5" > dash-$VERSION.$MINOR-win64.zip.DIGESTS.txt
+echo "# md5" > dash-$VERSION.$MINOR-win32-setup.exe.DIGESTS.txt
+echo "# md5" > dash-$VERSION.$MINOR-win64-setup.exe.DIGESTS.txt
+echo "# md5" > dash-$VERSION.$MINOR-linux32.tar.gz.DIGESTS.txt
+echo "# md5" > dash-$VERSION.$MINOR-linux64.tar.gz.DIGESTS.txt
+echo "# md5" > dash-$VERSION.$MINOR-osx.dmg.DIGESTS.txt
 
-md5 dash-$VERSION.$MINOR-win32.zip > dash-$VERSION.$MINOR-win32.zip.DIGESTS.txt
-md5 dash-$VERSION.$MINOR-win64.zip > dash-$VERSION.$MINOR-win64.zip.DIGESTS.txt
-md5 dash-$VERSION.$MINOR-win32-setup.exe > dash-$VERSION.$MINOR-win32-setup.exe.DIGESTS.txt
-md5 dash-$VERSION.$MINOR-win64-setup.exe > dash-$VERSION.$MINOR-win64-setup.exe.DIGESTS.txt
-md5 dash-$VERSION.$MINOR-linux32.tar.gz > dash-$VERSION.$MINOR-linux32.tar.gz.DIGESTS.txt
-md5 dash-$VERSION.$MINOR-linux64.tar.gz > dash-$VERSION.$MINOR-linux64.tar.gz.DIGESTS.txt
-md5 dash-$VERSION.$MINOR-osx.dmg > dash-$VERSION.$MINOR-osx.dmg.DIGESTS.txt
+md5 dash-$VERSION.$MINOR-win32.zip >> dash-$VERSION.$MINOR-win32.zip.DIGESTS.txt
+md5 dash-$VERSION.$MINOR-win64.zip >> dash-$VERSION.$MINOR-win64.zip.DIGESTS.txt
+md5 dash-$VERSION.$MINOR-win32-setup.exe >> dash-$VERSION.$MINOR-win32-setup.exe.DIGESTS.txt
+md5 dash-$VERSION.$MINOR-win64-setup.exe >> dash-$VERSION.$MINOR-win64-setup.exe.DIGESTS.txt
+md5 dash-$VERSION.$MINOR-linux32.tar.gz >> dash-$VERSION.$MINOR-linux32.tar.gz.DIGESTS.txt
+md5 dash-$VERSION.$MINOR-linux64.tar.gz >> dash-$VERSION.$MINOR-linux64.tar.gz.DIGESTS.txt
+md5 dash-$VERSION.$MINOR-osx.dmg >> dash-$VERSION.$MINOR-osx.dmg.DIGESTS.txt
 
 
 echo "# sha256" >> dash-$VERSION.$MINOR-win32.zip.DIGESTS.txt

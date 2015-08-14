@@ -1,3 +1,4 @@
+# md5
 MD5 (dash-0.12.0.44-win32-setup.exe) = 6563ff53d3d951349091d5a6d1dc0d62
 # sha256
 e3c4649247ce76e1a7a223d0b213095d89ae85d8  dash-0.12.0.44-win32-setup.exe
