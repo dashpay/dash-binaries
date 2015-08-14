@@ -1,4 +1,4 @@
 # md5
 MD5 (dash-0.12.0.44-win32.zip) = 22e03ccde74c5f1d45991e784e71628d
 # sha256
-c834ce71060d80e84a2225b628ecfef145025ffb  dash-0.12.0.44-win32.zip
+931e4f59bfe0f73652888468cd5dc8dbe37a70824ba428fa2aa07b74e32fdd5d  dash-0.12.0.44-win32.zip
