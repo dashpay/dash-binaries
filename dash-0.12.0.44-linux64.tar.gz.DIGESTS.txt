@@ -1,4 +1,4 @@
 # md5
-MD5 (dash-0.12.0.44-linux64.tar.gz) = 1415c4abd8ac556d5b02ec277885f3e9
+MD5 (dash-0.12.0.44-linux64.tar.gz) = f2d0a16ff4530d1be170295d3f1a0d18
 # sha256
-d8341d0c8b843092c2aa01b11077f3e853aec978b5fb8aca5278d82bd5958336  dash-0.12.0.44-linux64.tar.gz
+05ade8fdd701d6216733646ceb2fc5a5b38838d3d24cb79ae9e78e2fe72d25cc  dash-0.12.0.44-linux64.tar.gz
