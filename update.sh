@@ -1,6 +1,6 @@
-LINUX_BUILD=7
-MAC_BUILD=7
-WINDOWS_BUILD=13
+LINUX_BUILD=8
+MAC_BUILD=8
+WINDOWS_BUILD=15
 VERSION='0.12.0'
 MINOR='44'
 GPG='986FF288'
@@ -51,7 +51,7 @@ shasum -a 256 dash-$VERSION.$MINOR-linux32.tar.gz >> dash-$VERSION.$MINOR-linux3
 shasum -a 256 dash-$VERSION.$MINOR-linux64.tar.gz >> dash-$VERSION.$MINOR-linux64.tar.gz.DIGESTS.txt
 shasum -a 256 dash-$VERSION.$MINOR-osx.dmg >> dash-$VERSION.$MINOR-osx.dmg.DIGESTS.txt
 
-# gpg -b --armor -u $GPG --no-emit-version dash-$VERSION.$MINOR-linux32.tar.gz
+gpg -b --armor -u $GPG --no-emit-version dash-$VERSION.$MINOR-linux32.tar.gz
 gpg -b --armor -u $GPG --no-emit-version dash-$VERSION.$MINOR-linux64.tar.gz
 gpg -b --armor -u $GPG --no-emit-version dash-$VERSION.$MINOR-win32-setup.exe
 gpg -b --armor -u $GPG --no-emit-version dash-$VERSION.$MINOR-win64-setup.exe
