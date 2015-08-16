@@ -1,4 +1,0 @@
-# md5
-MD5 (dash-0.12.0.44-win64-setup.exe) = df89d626747487af1976d2589695d519
-# sha256
-ea4f2c5b11d8d59fb6241b8a90f5899ee6e5ba29dba80a7ff1e96f91c128022b  dash-0.12.0.44-win64-setup.exe
