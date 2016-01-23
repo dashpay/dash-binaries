@@ -1,0 +1,6 @@
+# MD5 hash
+a1a861b87f4f0e57cbb4a7c0124f87f4 *dash-0.12.0.56-win32.zip
+# SHA-256 hash
+8ada59a1a96538acabe235a59e27defb8901b9e47c8670bb8ea1d3c34922230b *dash-0.12.0.56-win32.zip
+# SHA-1 hash
+18d5d7833ab7e35b2c32506321470d7c9a64465c *dash-0.12.0.56-win32.zip
