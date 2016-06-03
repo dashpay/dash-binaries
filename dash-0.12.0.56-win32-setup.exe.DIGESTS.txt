@@ -1,6 +1,0 @@
-# MD5 hash
-1fd8eaf54b24ca763db69579f63139bc *dash-0.12.0.56-win32-setup.exe
-# SHA-256 hash
-e8b6b094e23f2befdd7a166f655359319e826612d126d6cbb94b7d8e1912640e *dash-0.12.0.56-win32-setup.exe
-# SHA-1 hash
-bc101ff5caf09ef4b50b2b3ced8c56bbc0035c57 *dash-0.12.0.56-win32-setup.exe

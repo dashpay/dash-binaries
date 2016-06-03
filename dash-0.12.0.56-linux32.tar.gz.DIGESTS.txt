@@ -1,6 +1,0 @@
-# MD5 hash
-789fa100c47ab7ae1e4358a79eaef82b *dash-0.12.0.56-linux32.tar.gz
-# SHA-256 hash
-3b81f036c7d38d52fd0a57f3ded45173b27a6fe1b137092ed629db308890ba87 *dash-0.12.0.56-linux32.tar.gz
-# SHA-1 hash
-d2ece3c462286edae5acf077f2cd60c0871b4d90 *dash-0.12.0.56-linux32.tar.gz
